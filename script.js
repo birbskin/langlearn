@@ -74,7 +74,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Close on escape key press
     document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape' && overlay.style.display === 'flex') {
             closeOverlay();

@@ -347,6 +347,89 @@ button[type="submit"]:hover {
     transform: scale(1.1);
 }
 
+#word-of-the-day {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
+#word-display {
+    margin-bottom: 15px;
+}
 
+#word {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00008B;
+}
 
+#pronunciation {
+    font-style: italic;
+    color: #666;
+}
+
+#translations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.translation {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* apply consistent rounding for all buttons */ 
+.search-box, 
+.search-bar input,
+main,
+.grid-item, 
+.level, 
+.sidebar-item, 
+.content-box,
+a.cta,
+.contact-form,
+.form-group input,
+.form-group select,
+.form-group textarea,
+button[type="submit"],
+#font-select,
+.translation,
+#word-of-the-day,
+.join-button {
+    border-radius: 10px; 
+
+.grid-item *, 
+.level *, 
+.sidebar-item *, 
+.content-box * {
+    border-radius: 5px;
+}
+
+.close-btn {
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.image-container {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.caption {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav a.active {
+    border-radius: 10px;
+}
