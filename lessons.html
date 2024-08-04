@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning - Lessons</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Language Learning</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#" class="active">Lessons</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact-us.html">Contact Us</a>
+            <div class="search-container">
+                <input type="text" id="search" class="search-box" placeholder="Search" aria-label="Search">
+            </div>
+            <div class="font-adjuster">
+                <label for="font-select">Font: </label>
+                <select id="font-select">
+                    <option value="Arial, sans-serif">Sans-serif</option>
+                    <option value="Georgia, serif">Serif</option>
+                    <option value="'Courier New', monospace">Monospace</option>
+                </select>
+            </div>
+            <div id="image-overlay" class="overlay">
+                <span class="close-btn">&times;</span>
+                <img class="overlay-image" id="enlarged-image">
+            </div>
+            <script src="script.js"></script>
+        </nav>
+    </header>
+    <main>
+        <section class="levels">
+            <div class="level">
+                <h2>Beginner</h2>
+                <div class="image-container">
+                    <img src="3.jpg" alt="Beginner" class="enlargeable">
+                    <div class="caption">Start your language journey</div>
+                </div>
+            </div>
+            <div class="level">
+                <h2>Intermediate</h2>
+                <div class="image-container">
+                    <img src="2.jpg" alt="Intermediate" class="enlargeable">
+                    <div class="caption">Build on your foundation</div>
+                </div>
+            </div>
+            <div class="level">
+                <h2>Advanced</h2>
+                <div class="image-container">
+                    <img src="1.jpg" alt="Advanced" class="enlargeable">
+                    <div class="caption">Perfect your skills</div>
+                </div>
+            </div>
+            <div class="level">
+                <h2>Native</h2>
+                <div class="image-container">
+                    <img src="4.jpg" alt="Native" class="enlargeable">
+                    <div class="caption">Achieve fluency</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</body>
+</html>

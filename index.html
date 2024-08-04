@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning - Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Language Learning</h1>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="lessons.html">Lessons</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact-us.html">Contact Us</a>
+            <div class="search-container">
+                <input type="text" id="search" class="search-box" placeholder="Search" aria-label="Search">
+            </div>
+            <div class="font-adjuster">
+                <label for="font-select">Font: </label>
+                <select id="font-select">
+                    <option value="Arial, sans-serif">Sans-serif</option>
+                    <option value="Georgia, serif">Serif</option>
+                    <option value="'Courier New', monospace">Monospace</option>
+                </select>
+            </div>
+            <div id="image-overlay" class="overlay">
+                <span class="close-btn">&times;</span>
+                <img class="overlay-image" id="enlarged-image">
+            </div>
+            <script src="script.js"></script>
+        </nav>
+    </header>
+    <main>
+        <div class="content-box">
+            <p>Welcome to languagelearning.com! This site is a one-stop-shop for language learning, exchange, and community! We aim to connect users with others learning the same language and keep each other accountable during their language learning journey.</p>
+        </div>
+        <div class="welcome-messages">
+          <h2 class="welcome" data-lang="en">Welcome!</h2>
+          <h2 class="welcome" data-lang="mn">Тавтай морил!</h2>
+          <h2 class="welcome" data-lang="ja">ようこそ！</h2>
+          <h2 class="welcome" data-lang="is">Velkominn!</h2>
+          <h2 class="welcome" data-lang="ru">Добро пожаловать!</h2>
+          <h2 class="welcome" data-lang="pt">Bem-vindo!</h2>
+          <h2 class="welcome" data-lang="ko">환영!</h2>
+        </div>
+        <div class="button-container">
+            <a href="#" class="join-button">Join today!</a>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</body>
+</html>
+
